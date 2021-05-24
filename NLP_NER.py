@@ -1,8 +1,9 @@
 import streamlit as st
-#import en_core_web_sm
+import en_core_web_sm
 import spacy_streamlit
 import spacy
-nlp=spacy.load('en_core_web_sm')
+#nlp=spacy.load('en_core_web_sm')
+nlp=en_core_web_sm.load()
 
 #Web Scraping Pkgs
 from bs4 import BeautifulSoup
