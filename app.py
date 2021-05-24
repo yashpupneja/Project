@@ -7,13 +7,10 @@ import base64
 
 #Pkgs - Files
 import Html
-import Css
 import NLP_NER, NLP_pos, NLP_sentiment
 
 def main():
 	
-	Css.local_css("style.css")
-	Css.side_background()
 	choices=["Home", "Applications"]
 	choice = st.sidebar.selectbox("Select Activity",choices)
 
