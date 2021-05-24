@@ -29,15 +29,6 @@ def html_intro():
                                   </i>
                         </p>
                 </div>
-                <div style="background-color:#f8fcde; padding:5px;">
-		          <h5>Connect With Me</h5>
-                          <a href="https://in.linkedin.com/in/yashaswipupneja" class="social-icon si-rounded si-small si-linkedin">
-                                <i class="icon-linkedin"></i>
-                          </a>
-                          <a href="https://github.com/yashpupneja/" target="_blank">
-                                    <i class="fab fa-github-square fa-4x"></i>
-                          </a>
-		</div>
 		<div class="footer-copyright">
 		    Made by <p class="white-text text-lighten-3">Yashaswi Pupneja</p><br/>
 		</div>

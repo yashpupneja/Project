@@ -7,7 +7,7 @@ import spacy
 # Load English tokenizer, tagger, parser, NER and word vectors 
 nlp = spacy.load("en_core_web_sm") 
 from spacy import displacy
-HTML_WRAPPER = """<div style="overflow-x: auto; border: 1px solid #e6e9ef; border-radius: 0.25rem; padding: 1rem; margin-bottom: 2.5rem">{}</div>"""
+#HTML_WRAPPER = """<div style="overflow-x: auto; border: 1px solid #e6e9ef; border-radius: 0.25rem; padding: 1rem; margin-bottom: 2.5rem">{}</div>"""
 
 
 #To extract the pos tags
@@ -44,7 +44,7 @@ def visualize(raw_text):
 		        html = html.replace("\n\n", "\n")
 		        if split_sents and len(docs) > 1:
 		            st.markdown(f"> {sent.text}")
-		        st.write(HTML_WRAPPER.format(html), unsafe_allow_html=True)
+		        st.write(html, unsafe_allow_html=True)
 
 
 def main():

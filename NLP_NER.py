@@ -22,7 +22,7 @@ def main():
 	st.markdown("Named Entity Recognition is the process by which the system identify named entities (persons, organisations, governments, money, etc.) using a mix of deep learning and probabilistic approach. This type of algorithm is generally trained on large corpuses e.g. in wikipedia . We have implemented this algorithm using a state-of-the-art library known as SpaCy. BeautifulSoup is used as a web scrapping tool to extract the text from a URL provided.")
 
 	menu = ["NER", "NER for URL"]
-	choice = st.sidebar.radio("Pick a choice", menu)
+	choice = st.sidebar.selectbox("Pick a choice", menu)
 
 
 	if choice == "NER":
